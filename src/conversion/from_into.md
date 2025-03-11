@@ -8,7 +8,7 @@ The [`From`] and [`Into`] traits are inherently linked, and this is actually par
 its implementation. If you are able to convert type A from type B, then it
 should be easy to believe that we should be able to convert type B to type A.
 -->
-[`From`]トレイトと[`Into`]トレイトは本質的に結びついており、そのことが実際に実装に反映されています。もし型Aから型Bへの変換ができるのであれば、型Bから型Aへの変換もできると思うのが自然です。
+[`From`]トレイトと[`Into`]トレイトは本質的に結びついており、そのことが実際に実装に反映されています。もし型Aに型Bから変換（convert type A from type B）ができるのであれば、型Bを型Aに変換（convert type B to type A）もできると思うのが自然です。
 
 ## `From`
 
